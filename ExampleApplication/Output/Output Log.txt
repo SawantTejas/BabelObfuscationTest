@@ -1,0 +1,432 @@
+Rebuild started...
+1>------ Rebuild All started: Project: ExampleApplication, Configuration: Release Any CPU ------
+1>  ExampleApplication -> D:\Projects\Obfuscation Test\ExampleApplication\ExampleApplication\bin\Release\ExampleApplication.exe
+1>  Babel Obfuscator version 10.3.0
+1>  Copyright (C) 2010-2023 babelfor.NET. All rights reserved.
+1>  Running on 64 bit Windows process
+1>  Processing D:\Projects\Obfuscation Test\ExampleApplication\ExampleApplication\bin\Release\ExampleApplication.exe...
+1>  Assembly search directories:
+1>     D:\Projects\Obfuscation Test\ExampleApplication\ExampleApplication\bin\Release\
+1>     C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8
+1>  Loading D:\Projects\Obfuscation Test\ExampleApplication\ExampleApplication\bin\Release\ExampleApplication.exe
+1>  Debug symbols found: D:\Projects\Obfuscation Test\ExampleApplication\ExampleApplication\bin\Release\ExampleApplication.pdb
+1>  Analyzing ExampleApplication.exe...
+1>  Target framework: .NETFramework,Version=v4.7.2
+1>  Processing System.Reflection.ObfuscationAttribute...
+1>  Reading embedded resources...
+1>     Parsing mainwindow.baml
+1>  SuppressIldasmAttribute added
+1>  Resolving rules...
+1>     Rule: Obfuscate public
+1>        Obfuscate all public symbols.
+1>     Feature: default
+1>     Exclude: no
+1>     Apply To Members: no
+1>     Locked: no
+1>     Target: All
+1>     Access: Public
+1>     Pattern RegEx(no): *
+1>     Matched 33 symbol(s)
+1>        Assembly: ExampleApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+1>        Module: ExampleApplication.exe
+1>        Resource: ExampleApplication.g.resources
+1>        Resource: ExampleApplication.Properties.Resources.resources
+1>        Type: ExampleApplication.App
+1>        Method: ExampleApplication.App::InitializeComponent():System.Void
+1>        Method: ExampleApplication.App::Main():System.Void
+1>        Method: ExampleApplication.App::.ctor()
+1>        Type: ExampleApplication.MainWindow
+1>        Method: ExampleApplication.MainWindow::.ctor()
+1>        Method: ExampleApplication.MainWindow::InitializeComponent():System.Void
+1>        Type: ExampleApplication.DataProcessor
+1>        Method: ExampleApplication.DataProcessor::add_OnProcessingComplete(System.Action<System.String>):System.Void
+1>        Method: ExampleApplication.DataProcessor::remove_OnProcessingComplete(System.Action<System.String>):System.Void
+1>        Method: ExampleApplication.DataProcessor::ProcessData<T>(System.Collections.Generic.List<!!T>):System.Void
+1>        Method: ExampleApplication.DataProcessor::.ctor()
+1>        Event: ExampleApplication.DataProcessor::OnProcessingComplete:System.Action<System.String>
+1>        Type: ExampleApplication.IEntity
+1>        Method: ExampleApplication.IEntity::PrintDetails():System.Void
+1>        Type: ExampleApplication.Person
+1>        Method: ExampleApplication.Person::get_Name():System.String
+1>        Method: ExampleApplication.Person::get_Age():System.Int32
+1>        Method: ExampleApplication.Person::get_Email():System.String
+1>        Method: ExampleApplication.Person::.ctor(System.String,System.Int32,System.String)
+1>        Method: ExampleApplication.Person::PrintDetails():System.Void
+1>        Property: ExampleApplication.Person::Name:System.String
+1>        Property: ExampleApplication.Person::Age:System.Int32
+1>        Property: ExampleApplication.Person::Email:System.String
+1>        Type: ExampleApplication.ReflectionHelper
+1>        Method: ExampleApplication.ReflectionHelper::DisplayProperties<T>(!!T):System.Void
+1>        Method: ExampleApplication.Properties.Settings::get_Default():ExampleApplication.Properties.Settings
+1>        Method: ExampleApplication.Properties.Settings::.ctor()
+1>        Property: ExampleApplication.Properties.Settings::Default:ExampleApplication.Properties.Settings
+1>     Rule: Prevent Agent
+1>        Disable Agent Task
+1>     Feature: agent
+1>     Exclude: yes
+1>     Apply To Members: yes
+1>     Locked: no
+1>     Target: All
+1>     Access: All
+1>     Pattern RegEx(no): *
+1>     Matched 59 symbol(s)
+1>        Assembly: ExampleApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+1>        Module: ExampleApplication.exe
+1>        Resource: ExampleApplication.g.resources
+1>        Resource: ExampleApplication.Properties.Resources.resources
+1>        Type: <Module>
+1>        Type: ExampleApplication.App
+1>        Method: ExampleApplication.App::InitializeComponent():System.Void
+1>        Method: ExampleApplication.App::Main():System.Void
+1>        Method: ExampleApplication.App::.ctor()
+1>        Type: ExampleApplication.MainWindow
+1>        Method: ExampleApplication.MainWindow::.ctor()
+1>        Method: ExampleApplication.MainWindow::OnProcessDataClick(System.Object,System.Windows.RoutedEventArgs):System.Void
+1>        Method: ExampleApplication.MainWindow::InitializeComponent():System.Void
+1>        Method: ExampleApplication.MainWindow::System.Windows.Markup.IComponentConnector.Connect(System.Int32,System.Object):System.Void
+1>        Field: ExampleApplication.MainWindow::_processor:ExampleApplication.DataProcessor
+1>        Field: ExampleApplication.MainWindow::_contentLoaded:System.Boolean
+1>        Type: ExampleApplication.DataProcessor
+1>        Method: ExampleApplication.DataProcessor::add_OnProcessingComplete(System.Action<System.String>):System.Void
+1>        Method: ExampleApplication.DataProcessor::remove_OnProcessingComplete(System.Action<System.String>):System.Void
+1>        Method: ExampleApplication.DataProcessor::ProcessData<T>(System.Collections.Generic.List<!!T>):System.Void
+1>        Method: ExampleApplication.DataProcessor::SerializeToFile(System.Object,System.String):System.Void
+1>        Method: ExampleApplication.DataProcessor::DeserializeFromFile<T>(System.String):!!T
+1>        Method: ExampleApplication.DataProcessor::.ctor()
+1>        Event: ExampleApplication.DataProcessor::OnProcessingComplete:System.Action<System.String>
+1>        Field: ExampleApplication.DataProcessor::OnProcessingComplete:System.Action<System.String>
+1>        Type: ExampleApplication.IEntity
+1>        Method: ExampleApplication.IEntity::PrintDetails():System.Void
+1>        Type: ExampleApplication.Person
+1>        Method: ExampleApplication.Person::get_Name():System.String
+1>        Method: ExampleApplication.Person::set_Name(System.String):System.Void
+1>        Method: ExampleApplication.Person::get_Age():System.Int32
+1>        Method: ExampleApplication.Person::set_Age(System.Int32):System.Void
+1>        Method: ExampleApplication.Person::get_Email():System.String
+1>        Method: ExampleApplication.Person::set_Email(System.String):System.Void
+1>        Method: ExampleApplication.Person::.ctor(System.String,System.Int32,System.String)
+1>        Method: ExampleApplication.Person::PrintDetails():System.Void
+1>        Property: ExampleApplication.Person::Name:System.String
+1>        Property: ExampleApplication.Person::Age:System.Int32
+1>        Property: ExampleApplication.Person::Email:System.String
+1>        Field: ExampleApplication.Person::<Name>k__BackingField:System.String
+1>        Field: ExampleApplication.Person::<Age>k__BackingField:System.Int32
+1>        Field: ExampleApplication.Person::<Email>k__BackingField:System.String
+1>        Type: ExampleApplication.ReflectionHelper
+1>        Method: ExampleApplication.ReflectionHelper::DisplayProperties<T>(!!T):System.Void
+1>        Type: ExampleApplication.Properties.Resources
+1>        Method: ExampleApplication.Properties.Resources::.ctor()
+1>        Method: ExampleApplication.Properties.Resources::get_ResourceManager():System.Resources.ResourceManager
+1>        Method: ExampleApplication.Properties.Resources::get_Culture():System.Globalization.CultureInfo
+1>        Method: ExampleApplication.Properties.Resources::set_Culture(System.Globalization.CultureInfo):System.Void
+1>        Property: ExampleApplication.Properties.Resources::ResourceManager:System.Resources.ResourceManager
+1>        Property: ExampleApplication.Properties.Resources::Culture:System.Globalization.CultureInfo
+1>        Field: ExampleApplication.Properties.Resources::resourceMan:System.Resources.ResourceManager
+1>        Field: ExampleApplication.Properties.Resources::resourceCulture:System.Globalization.CultureInfo
+1>        Type: ExampleApplication.Properties.Settings
+1>        Method: ExampleApplication.Properties.Settings::get_Default():ExampleApplication.Properties.Settings
+1>        Method: ExampleApplication.Properties.Settings::.ctor()
+1>        Method: ExampleApplication.Properties.Settings::.cctor()
+1>        Property: ExampleApplication.Properties.Settings::Default:ExampleApplication.Properties.Settings
+1>        Field: ExampleApplication.Properties.Settings::defaultInstance:ExampleApplication.Properties.Settings
+1>  Running agent...
+1>     Task: Reflected enums (prevents renaming of enum types consumed by reflection)
+1>     Task: Serializable types (prevents renaming of serializable types)
+1>     Task: Reflected strings (prevents obfuscation of strings consumed by reflection)
+1>     Task: Reflected types (prevents renaming of types consumed by reflection)
+1>     Task: Exposed attributes (prevents renaming of symbols that expose specific attributes)
+1>     Task: Base types (prevents renaming of types derived from a specified base type)
+1>        System.Configuration.ApplicationSettingsBase
+1>     Task: Code analysis (prevents renaming of types reserved to code analysis)
+1>     Task: Dynamic language (prevents renaming symbols used by the dynamic language runtime)
+1>  Generating proxies...
+1>     ExampleApplication.App
+1>        System.Uri::.ctor(System.String,System.UriKind)
+1>        System.Windows.Application::set_StartupUri(System.Uri):System.Void
+1>        ExampleApplication.App::.ctor()
+1>        ExampleApplication.App::InitializeComponent():System.Void
+1>        System.Windows.Application::Run():System.Int32
+1>     ExampleApplication.MainWindow
+1>        ExampleApplication.MainWindow::InitializeComponent():System.Void
+1>        ExampleApplication.DataProcessor::.ctor()
+1>        System.Collections.Generic.List<ExampleApplication.Person>::.ctor()
+1>        ExampleApplication.Person::.ctor(System.String,System.Int32,System.String)
+1>        System.Collections.Generic.List<ExampleApplication.Person>::Add(!!0):System.Void
+1>        System.Windows.MessageBox::Show(System.String):System.Windows.MessageBoxResult
+1>        System.Windows.Application::LoadComponent(System.Object,System.Uri):System.Void
+1>        System.Windows.Controls.Primitives.ButtonBase::add_Click(System.Windows.RoutedEventHandler):System.Void
+1>     ExampleApplication.DataProcessor
+1>        System.Delegate::Combine(System.Delegate,System.Delegate):System.Delegate
+1>        System.Delegate::Remove(System.Delegate,System.Delegate):System.Delegate
+1>        ExampleApplication.DataProcessor::SerializeToFile(System.Object,System.String):System.Void
+1>        System.Action<System.String>::Invoke(!!0):System.Void
+1>        System.IO.FileStream::.ctor(System.String,System.IO.FileMode)
+1>        System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::.ctor()
+1>        System.Runtime.Serialization.IFormatter::Serialize(System.IO.Stream,System.Object):System.Void
+1>        System.IDisposable::Dispose():System.Void
+1>        System.Runtime.Serialization.IFormatter::Deserialize(System.IO.Stream):System.Object
+1>     ExampleApplication.IEntity
+1>     ExampleApplication.Person
+1>        ExampleApplication.Person::set_Name(System.String):System.Void
+1>        ExampleApplication.Person::set_Age(System.Int32):System.Void
+1>        ExampleApplication.Person::set_Email(System.String):System.Void
+1>        ExampleApplication.Person::get_Name():System.String
+1>        ExampleApplication.Person::get_Age():System.Int32
+1>        ExampleApplication.Person::get_Email():System.String
+1>        System.String::Format(System.String,System.Object,System.Object,System.Object):System.String
+1>        System.Console::WriteLine(System.String):System.Void
+1>     ExampleApplication.ReflectionHelper
+1>        System.Type::GetTypeFromHandle(System.RuntimeTypeHandle):System.Type
+1>        System.Type::GetProperties():System.Reflection.PropertyInfo[]
+1>        System.Reflection.MemberInfo::get_Name():System.String
+1>        System.Reflection.PropertyInfo::GetValue(System.Object):System.Object
+1>        System.String::Format(System.String,System.Object,System.Object):System.String
+1>     ExampleApplication.Properties.Resources
+1>        System.Type::get_Assembly():System.Reflection.Assembly
+1>        System.Resources.ResourceManager::.ctor(System.String,System.Reflection.Assembly)
+1>     ExampleApplication.Properties.Settings
+1>        ExampleApplication.Properties.Settings::.ctor()
+1>        System.Configuration.SettingsBase::Synchronized(System.Configuration.SettingsBase):System.Configuration.SettingsBase
+1>  Encrypting values...
+1>     <Module>
+1>     ExampleApplication.App
+1>     ExampleApplication.MainWindow
+1>     ExampleApplication.DataProcessor
+1>     ExampleApplication.IEntity
+1>     ExampleApplication.Person
+1>     ExampleApplication.ReflectionHelper
+1>     ExampleApplication.Properties.Resources
+1>     ExampleApplication.Properties.Settings
+1>  Control flow obfuscation...
+1>     <Module>
+1>     ExampleApplication.MainWindow
+1>     ExampleApplication.ReflectionHelper
+1>     ExampleApplication.Properties.Resources
+1>     ExampleApplication.Properties.Settings
+1>     ExampleApplication.Properties.Resources::.ctor()
+1>     ExampleApplication.Properties.Settings::get_Default():ExampleApplication.Properties.Settings
+1>     ExampleApplication.MainWindow::.ctor()
+1>     ExampleApplication.ReflectionHelper::DisplayProperties<T>(!!T):System.Void
+1>     ExampleApplication.IEntity
+1>     ExampleApplication.DataProcessor
+1>     ExampleApplication.DataProcessor::add_OnProcessingComplete(System.Action<System.String>):System.Void
+1>     ExampleApplication.App
+1>     ExampleApplication.App::InitializeComponent():System.Void
+1>     ExampleApplication.Person
+1>     ExampleApplication.Person::get_Name():System.String
+1>     ExampleApplication.Properties.Settings::.ctor()
+1>     ExampleApplication.Properties.Resources::get_ResourceManager():System.Resources.ResourceManager
+1>     ExampleApplication.Person::set_Name(System.String):System.Void
+1>     ExampleApplication.App::Main():System.Void
+1>     ExampleApplication.Properties.Settings::.cctor()
+1>     ExampleApplication.Person::get_Age():System.Int32
+1>     ExampleApplication.Person::set_Age(System.Int32):System.Void
+1>     ExampleApplication.App::.ctor()
+1>     ExampleApplication.Person::get_Email():System.String
+1>     ExampleApplication.Person::set_Email(System.String):System.Void
+1>     ExampleApplication.Person::.ctor(System.String,System.Int32,System.String)
+1>     ExampleApplication.MainWindow::OnProcessDataClick(System.Object,System.Windows.RoutedEventArgs):System.Void
+1>     ExampleApplication.Properties.Resources::get_Culture():System.Globalization.CultureInfo
+1>     ExampleApplication.Properties.Resources::set_Culture(System.Globalization.CultureInfo):System.Void
+1>     ExampleApplication.MainWindow::InitializeComponent():System.Void
+1>     ExampleApplication.DataProcessor::remove_OnProcessingComplete(System.Action<System.String>):System.Void
+1>     ExampleApplication.Person::PrintDetails():System.Void
+1>     ExampleApplication.MainWindow::System.Windows.Markup.IComponentConnector.Connect(System.Int32,System.Object):System.Void
+1>     ExampleApplication.DataProcessor::ProcessData<T>(System.Collections.Generic.List<!!T>):System.Void
+1>     ExampleApplication.DataProcessor::SerializeToFile(System.Object,System.String):System.Void
+1>     ExampleApplication.DataProcessor::DeserializeFromFile<T>(System.String):!!T
+1>     ExampleApplication.DataProcessor::.ctor()
+1>  Obfuscating names...
+1>     Unresolved XAML names: 2
+1>     ExampleApplication.App
+1>        Void ExampleApplication.App::InitializeComponent()
+1>BABEL : warning [OB0004]: The Unicode character set provided is not valid to rename XAML symbols. The ASCII character set will be used instead.
+1>     ExampleApplication.MainWindow
+1>        ExampleApplication.DataProcessor ExampleApplication.MainWindow::_processor
+1>        System.Boolean ExampleApplication.MainWindow::_contentLoaded
+1>        Void ExampleApplication.MainWindow::OnProcessDataClick(System.Object,System.Windows.RoutedEventArgs)
+1>     ExampleApplication.DataProcessor
+1>        System.Action`1<System.String> ExampleApplication.DataProcessor::OnProcessingComplete
+1>        Void ExampleApplication.DataProcessor::add_OnProcessingComplete(System.Action`1<System.String>)
+1>        Void ExampleApplication.DataProcessor::remove_OnProcessingComplete(System.Action`1<System.String>)
+1>        System.Action`1<System.String> ExampleApplication.DataProcessor::OnProcessingComplete
+1>        Void ExampleApplication.DataProcessor::ProcessData(System.Collections.Generic.List`1<T>)
+1>        Void ExampleApplication.DataProcessor::SerializeToFile(System.Object,System.String)
+1>        T ExampleApplication.DataProcessor::DeserializeFromFile(System.String)
+1>     ExampleApplication.IEntity
+1>     ExampleApplication.Person
+1>        System.String ExampleApplication.Person::<Name>k__BackingField
+1>        System.Int32 ExampleApplication.Person::<Age>k__BackingField
+1>        System.String ExampleApplication.Person::<Email>k__BackingField
+1>        System.String ExampleApplication.Person::Name()
+1>        String ExampleApplication.Person::get_Name()
+1>        Void ExampleApplication.Person::set_Name(System.String)
+1>        System.Int32 ExampleApplication.Person::Age()
+1>        Int32 ExampleApplication.Person::get_Age()
+1>        Void ExampleApplication.Person::set_Age(System.Int32)
+1>        System.String ExampleApplication.Person::Email()
+1>        String ExampleApplication.Person::get_Email()
+1>        Void ExampleApplication.Person::set_Email(System.String)
+1>     ExampleApplication.ReflectionHelper
+1>        Void ExampleApplication.ReflectionHelper::DisplayProperties(T)
+1>     ExampleApplication.Properties.Resources
+1>     ExampleApplication.Properties.Resources.resources
+1>        System.Resources.ResourceManager ExampleApplication.Properties.Resources::resourceMan
+1>        System.Globalization.CultureInfo ExampleApplication.Properties.Resources::resourceCulture
+1>        System.Resources.ResourceManager ExampleApplication.Properties.Resources::ResourceManager()
+1>        ResourceManager ExampleApplication.Properties.Resources::get_ResourceManager()
+1>        System.Globalization.CultureInfo ExampleApplication.Properties.Resources::Culture()
+1>        CultureInfo ExampleApplication.Properties.Resources::get_Culture()
+1>        Void ExampleApplication.Properties.Resources::set_Culture(System.Globalization.CultureInfo)
+1>     ExampleApplication.Properties.Settings
+1>        ExampleApplication.Properties.Settings ExampleApplication.Properties.Settings::defaultInstance
+1>        ExampleApplication.Properties.Settings ExampleApplication.Properties.Settings::Default()
+1>        Settings ExampleApplication.Properties.Settings::get_Default()
+1>     Void ExampleApplication.IEntity::PrintDetails()
+1>     Void ExampleApplication.Person::PrintDetails()
+1>  Adding tampering detection...
+1>  Adding anti debugging protection...
+1>  Encrypting msil...
+1>     <Module>
+1>     ExampleApplication.App
+1>        ExampleApplication.App::InitializeComponent():System.Void
+1>        ExampleApplication.App::Main():System.Void
+1>        ExampleApplication.App::.cctor()
+1>     ExampleApplication.MainWindow
+1>        ExampleApplication.MainWindow::OnProcessDataClick(System.Object,System.Windows.RoutedEventArgs):System.Void
+1>        ExampleApplication.MainWindow::InitializeComponent():System.Void
+1>        ExampleApplication.MainWindow::System.Windows.Markup.IComponentConnector.Connect(System.Int32,System.Object):System.Void
+1>     ExampleApplication.DataProcessor
+1>        ExampleApplication.DataProcessor::add_OnProcessingComplete(System.Action<System.String>):System.Void
+1>        ExampleApplication.DataProcessor::remove_OnProcessingComplete(System.Action<System.String>):System.Void
+1>BABEL : warning [EM0003]: Generic methods are not supported at DataProcessor::ProcessData
+1>        ExampleApplication.DataProcessor::SerializeToFile(System.Object,System.String):System.Void
+1>BABEL : warning [EM0003]: Generic methods are not supported at DataProcessor::DeserializeFromFile
+1>     ExampleApplication.IEntity
+1>     ExampleApplication.Person
+1>        ExampleApplication.Person::get_Name():System.String
+1>        ExampleApplication.Person::set_Name(System.String):System.Void
+1>        ExampleApplication.Person::get_Age():System.Int32
+1>        ExampleApplication.Person::set_Age(System.Int32):System.Void
+1>        ExampleApplication.Person::get_Email():System.String
+1>        ExampleApplication.Person::set_Email(System.String):System.Void
+1>        ExampleApplication.Person::PrintDetails():System.Void
+1>     ExampleApplication.ReflectionHelper
+1>BABEL : warning [EM0003]: Generic methods are not supported at ReflectionHelper::DisplayProperties
+1>     ExampleApplication.Properties.Resources
+1>        ExampleApplication.Properties.Resources::get_ResourceManager():System.Resources.ResourceManager
+1>        ExampleApplication.Properties.Resources::get_Culture():System.Globalization.CultureInfo
+1>        ExampleApplication.Properties.Resources::set_Culture(System.Globalization.CultureInfo):System.Void
+1>     ExampleApplication.Properties.Settings
+1>        ExampleApplication.Properties.Settings::get_Default():ExampleApplication.Properties.Settings
+1>        ExampleApplication.Properties.Settings::.cctor()
+1>  Encrypting strings...
+1>     output.dat
+1>     {0}: {1}
+1>     Processing Complete!
+1>  Encrypting resources...
+1>     ExampleApplication.g.resources
+1>     a.???.resources
+1>     DhPz
+1>     tezbM
+1>     XLBA
+1>  Writing D:\Projects\Obfuscation Test\ExampleApplication\ExampleApplication\bin\Release\BabelOut\ExampleApplication.exe
+1>  Writing ExampleApplication.exe
+1>  Writing D:\Projects\Obfuscation Test\ExampleApplication\ExampleApplication\bin\Release\BabelOut\ExampleApplication.exe.map.xml
+1>  
+1>  Babel statistics:
+1>  Random seed: a397bd35a87abe05
+1>  Experimental features: false
+1>  Multithread obfuscation: true
+1>  
+1>  Rules phase, elapsed time 00.005s
+1>  Processed rules: 2
+1>  Obfuscate public: 33 symbol(s)
+1>  Prevent Agent: 59 symbol(s)
+1>  
+1>  Agent phase, elapsed time 00.010s
+1>  Reflected enums: 0 symbol(s) not obfuscated (00.001s)
+1>  Serializable types: 0 symbol(s) not obfuscated (00.000s)
+1>  Reflected strings: 0 symbol(s) not obfuscated (00.004s)
+1>  Reflected types: 0 symbol(s) not obfuscated (00.000s)
+1>  Exposed attributes: 0 symbol(s) not obfuscated (00.000s)
+1>  Base types: 0 symbol(s) not obfuscated (00.000s)
+1>  Code analysis: 0 symbol(s) not obfuscated (00.000s)
+1>  Dynamic language: 0 symbol(s) not obfuscated (00.000s)
+1>  
+1>  Dynamic Proxy phase, elapsed time 00.010s
+1>  Dynamic proxy call: All
+1>  Number of delegate types generated: 39
+1>  Number of proxy calls: 47
+1>  Dynamic Calls Table: 0
+1>  
+1>  Encrypt Values phase, elapsed time 00.003s
+1>  System.Int32: on (6)
+1>  System.Int64: on (0)
+1>  System.Single: on (0)
+1>  System.Double: on (0)
+1>  System.Array: on (0)
+1>  
+1>  Control Flow phase, elapsed time 00.516s
+1>  Number of iterations: 10
+1>  goto: on (165)
+1>  switch: on (50)
+1>  case: on (152)
+1>  instructions: on (1583)
+1>  if: on (6)
+1>  call: on
+1>  value: off
+1>  token: off
+1>  underflow: off
+1>  Number of obfuscated methods: 10
+1>  Emit invalid opcodes: off
+1>  
+1>  Renaming phase, elapsed time 00.055s
+1>  Unicode normalization: on
+1>  Flatten namespaces: on
+1>  Overloaded renaming: on
+1>  Virtual functions: on
+1>  XAML renaming: on
+1>  
+1>  Symbols statistics:
+1>       8/[    9]        types: 88.89 %
+1>       1/[    1]       events: 100.00 %
+1>       8/[   11]      methods: 72.73 %
+1>       6/[    6]   properties: 100.00 %
+1>       9/[    9]       fields: 100.00 %
+1>  
+1>      32/[   36]      overall: 88.89 %
+1>  
+1>  Tampering Detection phase, elapsed time 00.000s
+1>  Tampering detection added
+1>  
+1>  Anti Debugging Protection phase, elapsed time 00.001s
+1>  Anti debugging protection added
+1>  
+1>  Encrypt Msil phase, elapsed time 00.189s
+1>  Embedded resource: DhPz
+1>     size : 4207 bytes
+1>  
+1>  Method statistics:
+1>      21/[   31]    resources: 67.74 %
+1>  
+1>      21/[   31]      overall: 67.74 %
+1>  
+1>  Number of encrypted methods: 21
+1>  
+1>  Encrypt Strings phase, elapsed time 00.009s
+1>  String algorithm: hash
+1>  Number of encrypted strings: 3
+1>  
+1>  Encrypt Resources phase, elapsed time 00.013s
+1>  Number of encrypted resources: 5
+1>  Resource load hooks added: 1
+1>  Embedded Resource: lBxIS
+1>     compress: True
+1>     encrypt: True
+1>  
+1>  Emit phase, elapsed time 00.051s
+1>  Suppress reflection: on (0)
+1>  
+1>  Total elapsed time (00:00:01.0173283), 4 warnings
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
