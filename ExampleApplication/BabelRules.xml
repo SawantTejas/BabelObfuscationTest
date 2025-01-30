@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules version="2.0">
+  <Rule name="Obfuscate public" exclude="false">
+    <Access>Public</Access>
+    <Pattern isRegEx="false">*</Pattern>
+    <Description>Obfuscate all public symbols.</Description>
+  </Rule>
+	<Rule name="Prevent Agent" feature="agent" exclude="true" applyToMembers="true">
+		<Pattern>*</Pattern>
+		<Description>Disable Agent Task</Description>
+	</Rule>
+</Rules>
